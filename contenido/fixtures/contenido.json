@@ -1,0 +1,40 @@
+[
+    {
+        "fields": {
+          "name": "Sci-fi"
+        },
+        "model": "contenido.genre",
+        "pk": 1
+      },
+      {
+        "fields": {
+          "name": "Fantasy"
+        },
+        "model": "contenido.genre",
+        "pk": 2
+      },
+      {
+        "fields": {
+            "genre": 1,
+            "name": "Dune",
+            "autor": "Frank Herbert",
+            "pub_date": "1965-08-08",
+            "isbn": "9789585579972",
+            "editorial": "DeBolsillo"
+        },
+        "model": "contenido.books",
+        "pk": 1
+      },
+      {
+        "fields": {
+            "genre": 2,
+            "name": "Mistborn",
+            "autor": "Brandon Sanderson",
+            "pub_date": "2006-07-17",
+            "isbn": "9781250318541",
+            "editorial": "Tor"
+        },
+        "model": "contenido.books",
+        "pk": 2
+      }
+]
